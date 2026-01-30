@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import requests
 
-TMDB_API_KEY = "8265bd1679663a7ea12ac168da84d2e8"  # consider moving to env var
+TMDB_API_KEY = "Your API KEY"  # consider moving to env var
 
 def fetch_poster(movie_id):
     """Return poster URL for a numeric TMDB movie id, or None on failure."""
